@@ -1,5 +1,6 @@
 interface CopyrightNoticeProps {
   // ? makes a property optional: https://www.typescriptlang.org/docs/handbook/2/objects.html#optional-properties
+  workType?: string;
   author?: string;
   year: number;
 }
