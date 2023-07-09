@@ -25,14 +25,14 @@ export default function CopyrightNotice({
   //     </>
   //   );
   // }
-  return(
+  return (
     <>
-        { author &&
+      {author && (
         <p>
           Copyright {year}, {author}
         </p>
-        }
-        {!author && <p>Copyright {year} (but to nobody in particular)</p>}
-      </>
+      )}
+      {!author && <p>Copyright {year} (but to nobody in particular)</p>}
+    </>
   );
 }
